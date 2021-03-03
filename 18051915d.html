@@ -1,0 +1,191 @@
+<html>
+<style>
+body {
+  background-image: url("papertexture.jpg");
+  background-repeat: repeat;
+  background-position: right top;
+  margin-right: 200px;
+  background-attachment: fixed;
+}
+
+.view {
+	font-size: 1.1vw;
+
+}
+
+p{
+	font-size:large;
+
+
+}
+
+#box-container{
+	display:flex;
+
+}
+
+.box-1{
+	float:left;
+	width:80%;
+	margin-left:30px;
+
+}
+.box-2{
+	overflow:hidden;
+	position:fixed;
+	margin-left:10px;
+	right:10px;
+	width:13%;
+	font-size:2vw;
+}
+
+.imgcontainer{
+	position:relative;
+	float:left;
+	margin: 2px;
+	border: 1px solid #ccc;
+  
+}
+
+.text-block {
+  position: absolute;
+  bottom: 10px;
+  left: 0;
+  background-color: black;
+  color: white;
+  padding-left: 10px;
+  padding-right: 10px;
+
+}
+
+div.gallery {
+  position:relative;
+  margin: 5px;
+  border: 1px solid #ccc;
+  float: left;
+  width: 180px;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+a[href$=".mp4"]::after{
+	content: url(internal-link.png);
+}
+
+
+
+a[href^="http"]::after{
+	content: url(external-link.png);
+}
+
+.box-2 a::after{
+	content: url(internal-link.png);
+}
+
+i a::after{
+	content: url(internal-link.png);
+}
+
+
+</style>
+<body>
+<div>
+<h1 style="font-size: 4vw;">Kin Sang WONG</h1>
+</div>
+
+<div>
+<div>
+<p>A COMP undergraduate in PolyU</p>
+</div>
+</div>
+<div>
+<div><hr /></div>
+</div>
+
+<div class="gallery">
+  <a target="_blank" href="IMG_20210129_174326.jpg">
+    <img src="IMG_20210129_174326.jpg" alt="my picture" width="310" height="420" title="My picture">
+  </a>
+  <h4 style="text-align:center;">My picture</h4>
+</div>
+<div class="box-1">
+
+<div id="about me">
+<h2>About me</h2>
+
+<p>My fullname is Wong Kin Sang and you may call me Sam. I live in Hong Kong and enjoy travelling around the world. People say I am a careful and thoughtful person and always point out creative ideas. I choose Computer Science at university because I want to learn what's behind the latest technology and how to use it. I also want to learn the knowledge of developing application that can assist human's life and thus raise the quality of life. I am interested at becoming a Game Designer or an Analyst Programmer.</p>
+
+
+<div name="books">
+<p>One of my main hobbies is reading and my favourite type of book/comics is <i>Detective and Mystery</i> such as <i><a href="malice.jpg" title="book cover">"Malice: A Mystery"</a></i> and <i><<給偵探社的挑戰書：放學後再推理2>></i>. I enjoy solving mysteries and puzzles because I can get a sense of accomplishment from it. The techniques used in detective books can also bring me ideas on solving the real world problems. I have just finished reading a book called <i><<推理競技場>></i> recently and I recommend it to detective fans. There are complex stories and deliberate deductions, plus a surprising ending. I am sure that the trickery in the book can get your interest.<br></p>
+</div>
+
+<div name="gunpla">
+<p>I also like crafting <a title="gundaminfo.com" href="https://hk.gundam.info/"><strong style="color: 317399;">Gunpla </strong></a>and my favourite models are ZGMF-X10A <a style="color: #0959e5;" href="https://gundam.fandom.com/wiki/ZGMF-X10A_Freedom_Gundam" title="link to wiki fandom">Freedom</a> and RX-0[N] Unicorn Gundam 02 <a href="https://gundam.fandom.com/wiki/RX-0%EF%BC%BBN%EF%BC%BD_Unicorn_Gundam_02_Banshee_Norn" title="link to wiki fandom"><span style="color: orange;">Banshee Norn</span></a>. Freedom Gundam shows the high mobility in sky and outer space like <a href="Freedom.mp4" style="color: #0959e5;" title="video clip">a flying bird</a> of liberty whereas Banshee Norn shows the image of an <a href="Produce.mp4" style="color: orange;" title="video clip">intrepid black lion</a>.</p>
+
+
+<div class="imgcontainer">
+<a target="_blank" href="Zgmf-x10a.webp">
+<img src="Zgmf-x10a.webp" alt="image of Freedom Gundam" width="220" height="300" title="Freedom Gundam (internet source)">
+</a>
+<div class="text-block"><h4>Freedom Gundam</h4>
+</div>
+</div>
+
+<div class="imgcontainer"><a target="_blank" href="IMG_20210225_102430.jpg">
+<img src="IMG_20210225_102430.jpg" alt="image of Banshee Norn" width="400" height="300" title="Banshee Norn Built by myself"></a>
+<div class="text-block"><h4>Banshee Norn</h4></div>
+</div>
+
+<div class="imgcontainer"><a target="_blank" href="IMG_20210225_102214.jpg">
+<img src="IMG_20210225_102214.jpg" alt="image of other models" width="400" height="300" title="other Gunpla built by myself"></a>
+<div class="text-block"><h4>Other models</h4></div>
+</div>
+
+</div>
+
+<div style="float:left;">
+<br>
+<p>
+I enjoy both static hobbies and dynamic hobbies. Static hobbies such as making models can help me calm down and reflect about myself. It is also a good way to restore energy and train my temper. I also do dynamic hobbies like playing basketball. It is relaxing when i got nothing but net and taking a bath after a good sweat. 
+</p>
+</div>
+</div>
+
+<div id="mystudy">
+<h2>
+My current study
+</h2>
+<p>
+I am studying <i><em>Web Application Design</em></i> and <i>Mobile Computing</i> in this semester (2021/2). 
+Webs are pervasive in nowadays society that everyone has a smartphone or computer and therefore the knowledge in programming a website or Internet based application is often listed on job requirement. The interaction of clients and the server is what now I am interested the most. I hope to understand the concepts and apply the techniques to implement the latest interactive Web applications.</p>
+<p><i>Mobile Computing</i> focuses on the mobile entities and connection bewteen devices. With the increase in smartphone users and popularity of Smart Home technology, mobile computing will become even more important with its new dimensions of mobility and wireless connection.</p>
+<p>
+Both courses are related to each other and getting more popular in the world. Therefore, it is a must to equip myself with the basic competencies before entering the workplace or learning in-depth theories.</p>
+
+<p>To become a Game designer, I am going to study Game Design and development next semester. It will be tough to be a late starter but if you can merge your work with interest, you can keep your motivation to study and work.</p>
+<p>To become an analyst programmer, it will be helpful after learning different programming language and software that I can assist and manage jobs to other programmers.</p>
+</div>
+
+
+<div id="contact">
+<h2>Contact</h2>
+<p>You may contact me by email: <a href="mailto:18051915d@connect.polyu.hk">18051915d@connect.polyu.hk</a> or <a href="mailto:samwong6b25@gmail.com">samwong6b25@gmail.com</a> for any enquries or we can make a friend.<br> &#128513&#129309&#128513</p>
+</div>
+
+</div>
+</div>
+
+<div class="box-2">
+<p>Menu</p>
+<p><a href="#about me"><b>About me</b></a></p>
+<p><a href="#mystudy"><b>My study</b></a></p>
+<p><a href="#contact"><b>Contact</b></a></p>
+
+</div>
+
+
+</html>
